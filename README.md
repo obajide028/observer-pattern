@@ -40,6 +40,8 @@ The WeatherStation(Subject) stores the weather data and notifies all the registe
 ### **4️⃣ Implement Concrete Observers**
 Different display elements (examples: TvDisplay, PhoneDisplay) these observers subscribes to the weather station and get updates, then the data received is displayed when notified.
 
+---
+
 ### **Conclusion**
 The **Observer Pattern** promotes flexibility, reusability and maintainability by allowing components to communicate without being tightly coupled. It ensures real-time updates and also follows SOLID Principles, making it a powerful design choice for event driven applications.
 
