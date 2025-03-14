@@ -25,7 +25,7 @@ The **Observer Pattern** works like a subscription system. One object(The Subjec
 
 ## **Observer Pattern in Action: Weather Monitoring System**
 
-## **How It Works**
+### **How It Works**
 Instead of hardcoding weather updates inside multiple display units, we delegate them to an observer system.
 
 ### **1️⃣ Define the Observer Interfaces**
@@ -42,7 +42,7 @@ Different display elements (examples: TvDisplay, PhoneDisplay) these observers s
 
 ---
 
-### **Conclusion**
+## **Conclusion**
 The **Observer Pattern** promotes flexibility, reusability and maintainability by allowing components to communicate without being tightly coupled. It ensures real-time updates and also follows SOLID Principles, making it a powerful design choice for event driven applications.
 
 By applying this pattern to the Weather Station simulation, I built a system where multiple components stay in sync, resulting in cleaner and more scalable code. 🚀
