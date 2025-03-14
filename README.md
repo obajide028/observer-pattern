@@ -45,4 +45,4 @@ Different display elements (examples: TvDisplay, PhoneDisplay) these observers s
 ## **Conclusion**
 The **Observer Pattern** promotes flexibility, reusability and maintainability by allowing components to communicate without being tightly coupled. It ensures real-time updates and also follows SOLID Principles, making it a powerful design choice for event driven applications.
 
-By applying this pattern to the Weather Station simulation, I built a system where multiple components stay in sync, resulting in cleaner and more scalable code. 🚀
+By applying this pattern to the Weather Station simulation, I built a system where multiple components stay in sync, resulting in cleaner and more scalable code.🚀
