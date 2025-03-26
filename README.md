@@ -29,16 +29,16 @@ The **Observer Pattern** works like a subscription system. One object(The Subjec
 Instead of hardcoding weather updates inside multiple display units, we delegate them to an observer system.
 
 ### **1️⃣ Define the Observer Interfaces**
- We create an Observer interface that defines the update() method, which will be called when the subject's state change.
+ We create an Observer interface that defines the `update()` method, which will be called when the subject's state change.
 
 ### **2️⃣ Define the Subject Interface**
 The Subject interface allows observers to subscribe, unsubscribe, and get notified of updates.
 
 ### **3️⃣ Implement the Concrete Subject**
-The WeatherStation(Subject) stores the weather data and notifies all the registered observers whenever data changes.
+The `WeatherStation`(Subject) stores the weather data and notifies all the registered observers whenever data changes.
 
 ### **4️⃣ Implement Concrete Observers**
-Different display elements (examples: TvDisplay, PhoneDisplay) these observers subscribes to the weather station and get updates, then the data received is displayed when notified.
+Different display elements (examples: `TvDisplay`, `PhoneDisplay`) these observers subscribes to the weather station and get updates, then the data received is displayed when notified.
 
 ---
 
