@@ -18,8 +18,8 @@ The **Observer Pattern** works like a subscription system. One object(The Subjec
 - ✅ **Decouples subjects from observers** – Subjects do not need to know concrete observer implementations.
 - ✅ **Promotes reusability** - New observers can be added without modifying the subjects.
 - ✅ **Adherence to SOLID Principles**:
-- **Open/Closed Principle** – New observers can be introduced without modifying the subject.
-- **Single Responsibility Principle** – Each class has a well-defined role.
+   - **Open/Closed Principle** – New observers can be introduced without modifying the subject.
+   - **Single Responsibility Principle** – Each class has a well-defined role.
 
 ---
 
